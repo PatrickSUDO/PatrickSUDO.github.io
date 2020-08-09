@@ -1,7 +1,7 @@
 module.exports = {
   "title": "Patrick's Blog",
   "description": " ",
-  "dest": "public",
+  "dest": ".vuepress/dist",
   "locales": {
     '/': {
       lang: 'en-US'
