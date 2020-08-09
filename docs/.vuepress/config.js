@@ -67,12 +67,12 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/PatrickSUDO",
             "icon": "reco-github"
           },
           {
             "text": "Mail Me",
-            "link": "mailto:patricksuph@gmai1.com",
+            "link": "mailto:patricksuph@gmail.com",
             "icon": "reco-mail"
           },
           {
