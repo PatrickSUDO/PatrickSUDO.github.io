@@ -35,7 +35,8 @@ module.exports = {
           owner: 'PatrickSUDO',
           repo: 'comment',
           clientId: '6aba19e2a544784496f0',
-          clientSecret: '8d29cc2f04989d822d63ce7dd662dfa1042bdcbb'
+          clientSecret: '76dff93d6c2daa6abe03f4d2993c32fbffc1f0af',
+          autoCreateIssue:true
         }
       }
     },
