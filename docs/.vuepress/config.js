@@ -34,8 +34,8 @@ module.exports = {
           platform: 'github-v4',
           owner: 'PatrickSUDO',
           repo: 'comment',
-          clientId: '6aba19e2a544784496f0',
-          clientSecret: '76dff93d6c2daa6abe03f4d2993c32fbffc1f0af',
+          clientId: '64ebf58d65249e13ffb2',
+          clientSecret: '875a204404040d9f5fe31fa9dd9c51c8ff1bfbbe',
           autoCreateIssue:true
         }
       }
