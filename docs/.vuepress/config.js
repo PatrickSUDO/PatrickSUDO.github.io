@@ -33,7 +33,7 @@ module.exports = {
           locale: 'en-US',
           platform: 'github',
           owner: 'PatrickSUDO',
-          repo: 'PatrickSUDO.github.io',
+          repo: 'comment',
           clientId: '64ebf58d65249e13ffb2',
           clientSecret: '875a204404040d9f5fe31fa9dd9c51c8ff1bfbbe',
           autoCreateIssue:true
