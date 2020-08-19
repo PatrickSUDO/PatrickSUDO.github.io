@@ -31,7 +31,7 @@ module.exports = {
       '/': {
         vssueConfig: {
           locale: 'en-US',
-          platform: 'github',
+          platform: 'PatrickSUDO.github.io',
           owner: 'PatrickSUDO',
           repo: 'comment',
           clientId: '64ebf58d65249e13ffb2',
