@@ -5,7 +5,7 @@ author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
 tags: 
-  - LeetCode(Medium)
+  - LeetCode-Medium
   - Heap
   - Quicksort
   - Hash table

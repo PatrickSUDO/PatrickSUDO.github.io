@@ -5,7 +5,7 @@ author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
 tags:
-  - LeetCode(Easy)
+  - LeetCode-Easy
   - Hash table
 categories:
   - LeetCode
