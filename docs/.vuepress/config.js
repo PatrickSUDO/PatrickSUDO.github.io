@@ -122,14 +122,6 @@ module.exports = {
     //   clientSecret: '8d29cc2f04989d822d63ce7dd662dfa1042bdcbb',
     // }], 
     ['cursor-effects'],
-    [
-      'vuepress-plugin-mathjax',
-      {
-        target: 'svg',
-        macros: {
-          '*': '\\times',
-        },
-      },
-    ],
+    ['vuepress-plugin-mathjax'],
 ],
 }
