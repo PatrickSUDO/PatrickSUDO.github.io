@@ -121,6 +121,15 @@ module.exports = {
     //   clientId: '6aba19e2a544784496f0',
     //   clientSecret: '8d29cc2f04989d822d63ce7dd662dfa1042bdcbb',
     // }], 
-    ['cursor-effects']
+    ['cursor-effects'],
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
 ],
 }
