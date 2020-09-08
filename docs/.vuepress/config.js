@@ -123,5 +123,6 @@ module.exports = {
     // }], 
     ['cursor-effects'],
     ['vuepress-plugin-mathjax'],
+    ['vuepress-plugin-latex'],
 ],
 }
