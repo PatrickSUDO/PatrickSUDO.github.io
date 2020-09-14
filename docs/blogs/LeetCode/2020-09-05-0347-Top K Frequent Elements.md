@@ -58,7 +58,7 @@ class Solution:
         return ans
 ```
 
-Another way with better time complexity in the best case,$O(n)$, is using quick select, but it can be longer :(.
+Another way with better time complexity in the best case,$O(n + klogk)$, is using quick select, but it can be longer :(.
 
 ```python
 class Solution:
@@ -72,7 +72,7 @@ class Solution:
                 while l < r and count[l][1] >= count[pivot][1]:
                     l += 1
                 count[l] , count[r] = count[r], count[l]
-            count[left], count[l] = count[l], count[left]
+            count[pivot], count[l] = count[l], count[pivot]
             
             if l + 1 == k:
                 return count[:l + 1]
