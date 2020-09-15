@@ -1,12 +1,12 @@
 ---
-title: 994. Rotting Oranges
-date: 2020-09-14
+title: 0994. Rotting Oranges
+date: 2020-09-15
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
 tags: 
-  - LeetCode-Hard
-  - DFS
+  - LeetCode-Medium
+  - BFS
 categories:
   - LeetCode
 ---
