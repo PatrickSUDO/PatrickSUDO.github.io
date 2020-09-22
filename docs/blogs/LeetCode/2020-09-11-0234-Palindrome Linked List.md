@@ -85,11 +85,13 @@ class Solution:
         while fast and fast.next:
             fast = fast.next.next
             #reverse 
-            l, l.next, r = r, l, r.next
+            
+            prev, l = l, r
+            l.next, r = prev, r.next
         #If fast is not None means the length is odd, so the mid is not being compared
         if fast:
             r = r.next
-        #Check is palindrom or not (2 pointer)
+        #Check is palindrome or not (2 pointer)
         while l and l.val == r.val:
             r = r.next
             l = l.next
