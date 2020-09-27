@@ -7,8 +7,8 @@ sidebarDepth: 2
 tags: 
   - LeetCode-Medium
   - Heap
-  - Quicksort
-  - Hash table
+  - Sort
+  - Hash Table
 categories:
   - LeetCode
 ---

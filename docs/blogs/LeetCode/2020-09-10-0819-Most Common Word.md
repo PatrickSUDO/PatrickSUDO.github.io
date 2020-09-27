@@ -7,7 +7,7 @@ sidebarDepth: 2
 tags: 
   - LeetCode-Easy
   - String
-  - Hash table
+  - Hash Table
 categories:
   - LeetCode
 ---

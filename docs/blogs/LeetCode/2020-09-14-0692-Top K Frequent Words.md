@@ -7,8 +7,8 @@ sidebarDepth: 2
 tags: 
   - LeetCode-Medium
   - Heap
-  - Quicksort
-  - Hash table
+  - Sort
+  - Hash Table
 categories:
   - LeetCode
 ---
@@ -68,7 +68,6 @@ class Solution:
         def quickSelect(arr, left, right, k):
             l, r = left, right
             p = left
-            print(l, r, arr)
             while l < r:
                 while l < r and arr[r][1] < arr[p][1] or (arr[r][1] == arr[p][1] and arr[r][0] > arr[p][0]):
                     r -= 1

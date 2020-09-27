@@ -6,7 +6,7 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags: 
   - LeetCode-Medium
-  - TwoPointer
+  - Two Pointer
   - Greedy
 categories:
   - LeetCode

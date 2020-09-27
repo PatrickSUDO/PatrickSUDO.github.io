@@ -6,7 +6,7 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags:
   - LeetCode-Easy
-  - Hash table
+  - Hash Table
 categories:
   - LeetCode
 ---

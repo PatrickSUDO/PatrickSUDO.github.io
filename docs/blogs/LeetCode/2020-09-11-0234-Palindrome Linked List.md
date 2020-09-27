@@ -6,8 +6,8 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags: 
   - LeetCode-Easy
-  - LinkedList
-  - TwoPointer
+  - Linked List
+  - Two Pointer
 categories:
   - LeetCode
 ---
