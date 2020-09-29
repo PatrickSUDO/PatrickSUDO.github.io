@@ -14,7 +14,7 @@ categories:
 [LeetCode 0138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 ---
-**Problem:** <br/>
+#### Problem: 
 
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
 
@@ -56,15 +56,15 @@ The Linked List is represented in the input/output as a list of n nodes. Each no
 
 
 ---
-**Solution:** <br/>
+#### Solution:
 
 The deep copy means you need to traverse through all the elements and copy all th node including their value and pointers. We can copy the value and the normal "next" point in the Linked List first, then copy the "random" pointer. Because after we collect all the nodes, it's easy to check and build the "random" pointer to the other node in the list. We store the node in a hash table. As other Linked List problem, we can have dummy node first.
 
 
 Time complexity: $O(n)$ </br>
 Space complexity: $O(n)$
-
-
+</br>
+</br>
 ```python
 """
 # Definition for a Node.
