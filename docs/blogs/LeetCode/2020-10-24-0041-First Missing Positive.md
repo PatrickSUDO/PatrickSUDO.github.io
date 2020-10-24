@@ -39,8 +39,7 @@ Given an unsorted integer array nums, find the smallest missing positive integer
 
 - 0 <= nums.length <= 300
 
-- -2^31^ <= nums[i] <= 2^31^ - 1
-
+- -2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1
 
 ---
 ### Solution:
