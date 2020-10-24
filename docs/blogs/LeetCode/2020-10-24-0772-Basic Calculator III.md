@@ -48,7 +48,7 @@ You may assume that the given expression is always valid. All intermediate resul
 
 #### Constraints:
 
-- 1 <= s <= 10^4^
+- 1 <= s <= 10<sup>4</sup>
 - s consists of digits, '+', '-', '*', '/', '(', ')' and ' '.
 - s is a valid expression.
 
