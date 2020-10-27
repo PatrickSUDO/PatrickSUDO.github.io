@@ -7,7 +7,7 @@ sidebarDepth: 2
 tags: 
   - LeetCode-Easy
   - Linked List
-  - Two Pointer
+  - Two Pointers
 categories:
   - LeetCode
 ---

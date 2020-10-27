@@ -41,7 +41,7 @@ Merge two sorted linked lists and return it as a new sorted list. The new list s
 - Both l1 and l2 are sorted in non-decreasing order.
 ---
 ### Solution:
-This is a part of merge sort. The concept is  you iterate through both list and extract the one with smaller head. Next, connect the head to the current node of new list. Then move forward to the next elements for both old and new lists. Finally, there will be one list remain, we just need to connect it next to the new list. Finally, we can use dummy.next to return the new list. 
+This question is a part of the merge sort. The concept is you iterate through both lists and extract the one with a smaller head. Next, connect the head to the current node of the new list. Then move forward to the next elements for both old and new lists. Finally, there will be one list remain. We need to connect it next to the original list. Yet, we can use dummy.next to return the new list. 
 
 Time complexity: $O(m+n)$ </br>
 Space complexity: $O(1)$

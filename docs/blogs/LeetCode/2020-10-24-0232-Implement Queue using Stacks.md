@@ -58,7 +58,7 @@ Implement the MyQueue class:
 
 ---
 ### Solution:
-We know that stack is LIFO, and queue is FIFO. So to implement queue by stack, all we want to do is create another stack as buffer, so it can "reverse" the sequence when we want to pop the element, but the case when one stack is empty should be handled specially.
+We know that stack is LIFO, and the queue is FIFO. To implement queue by the stack, all we want to do is create another stack as a buffer, so it can "reverse" the sequence when we want to pop the element, but the case when one stack is empty should be handled specially.
 
 
 Time complexity: $O(1)$ 

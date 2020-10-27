@@ -38,8 +38,8 @@ If there is no common prefix, return an empty string "".
 - strs[i] consists of only lower-case English letters.
 ---
 ### Solution:
-The most intuitive idea is to compare each character at the same position from the beginning which is the brute force way.
-If they are the same, continue to do it, if they are different, stop and output the result.
+The most intuitive idea is to compare each character in the same position, which is brute force.
+If they are the same, continue to compare the next. If the characters are different, stop, and output the result.
 But traversing all the characters in the same position each time can be expensive.
 We take the first string as a common prefix (named pre).
 Next, we use the remaining strings to check whether this pre is its prefix, and if so, check the next one.
@@ -66,7 +66,7 @@ public class Solution {
 }
 ```
 
-In Python, we can directly find the maximum and minimum of the string which is something like sorting them lexicographically. Time complexity become $O(kn)$. In this way, we only check the max string, if max string satisfy the prefix condition, then other strings must do so.
+In Python, we can directly find the maximum and minimum of the string, something like sorting them lexicographically. Time complexity becomes $O(kn)$. In this way, we only check the max string, if max string satisfies the prefix condition, then other strings must do so.
 
 ```python
 class Solution:

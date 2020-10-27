@@ -54,18 +54,18 @@ You may assume that the given expression is always valid. All intermediate resul
 
 ---
 ### Solution:
-To handle the precedence, the straight-forward way is using stack. However, in this problem, we not only need to handle the positive or negative sign but the parentheses and the principle that "multiplication and division should be operated first". One stack is to store the number(num), and another is to store the symbol(ops).
-Two helper function should be built first, one is to handle the basic arithmetic operation and one is to control the precedence.
+The most straightforward way to handle the precedence is using stack. However, in this problem, we not only need to handle the positive or negative sign but the parentheses and the principle that "multiplication and division should be operated first". One stack is to store the number(num), and another is to keep the symbol(ops).
+Two helper functions should be built. First, one is to handle the basic arithmetic operation, and one is to control the precedence.
 
-Then, we can start to extract the string one by one. When we see the space just continue. If it is digit, we start to concat the consecutive digit and convert to number. Then, push it into num.
+Then, we can start to extract the string one by one. When we see space, continue. If it is a digit, we begin to concatenate the consecutive digit and convert to a number. Then, push it into num.
 
-If we see "(", then it means there is a block need to be calculate in higher priority. Then, push it into ops. 
+If we see "(", then it means a block needs to be calculated in higher priority. Then, push it into ops. 
 
-When we see ")", it means the block is over, so we need to calculate it, and push the final answer into num. Be careful for the number sequence because stack is LIFO
+When we see ")", it means the block is over, so we need to calculate it, and push the final answer into num. Be careful for the number sequence because the stack is LIFO
 
-If we see the operand and there is no specially precedence happen, just calculate it as previous mentioned.
+If we see the operand and there is no particular precedence, calculate it as previously mentioned.
 
-Finally, we have a simple formula without parentheses and special precedence. Repeat the calculation again to have the final answer.
+Finally, we have a simple formula without parentheses and particular precedence. Repeat the calculation to have the final answer.
 
 
 Time complexity: $O(n)$ 

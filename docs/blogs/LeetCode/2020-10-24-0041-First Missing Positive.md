@@ -43,10 +43,10 @@ Given an unsorted integer array nums, find the smallest missing positive integer
 
 ---
 ### Solution:
-No extra memory can be used, so the hash table is not possible to use here, and it can only be encoded on the original array. We first remove 0 or negative numbers, set them to infinite or the maximum integer, so they will be filtered in the future. There is an important tip here is that the smallest positive integer must be from 1 to l+1 (close interval). So we can directly use the original array index to record whether the positive integer exist or not.
-So we use nums[i] as index but remember to -1 because we are looking for 1~l+1 but the array coordinates start from 0, and then force the number of coordinates to be negative.
+No extra memory can be used, so the hash table is not possible to use here, and it can only be encoded on the original array. We first remove 0 or negative numbers, set them to infinite or the maximum integer, and be filtered in the future. An important tip here is that the smallest positive integer must be from 1 to l+1 (close interval). So we can directly use the original array index to record whether the positive integer exists or not.
+So we use nums[i] as an index but remember to -1 because we are looking for 1~l+1, but the array coordinates start from 0, forcing the number of coordinates to be negative.
 
-Finally, start from the beginning to find the position of the positive number and the smallest missing positive integer. If there is no finding after the traversal, it means that the original missing number is larger than the original number, so you need to return l+1.
+Finally, start from the beginning to find the positive number and the smallest missing positive integer. If there is no finding after the traversal, it means that the original missing number is larger than the original number, so you need to return l+1.
 
 Time complexity: $O(n)$ </br>
 Space complexity: $O(1)$
