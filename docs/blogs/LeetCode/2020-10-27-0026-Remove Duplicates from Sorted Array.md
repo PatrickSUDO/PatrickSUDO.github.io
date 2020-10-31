@@ -71,7 +71,7 @@ Space complexity: $O(1)$
 </br>
 </br>
 
-
+#### Python
 ```python
 class Solution:
     def removeDuplicates(self, nums):
@@ -84,7 +84,7 @@ class Solution:
             j += 1
         return i + 1
 ```
-
+#### Java
 ```java
 class Solution {
     public int removeDuplicates(int[] nums) {

@@ -49,7 +49,7 @@ Space complexity: $O(n)$
 </br>
 </br>
 
-
+#### Python
 ```python
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
@@ -79,6 +79,7 @@ class Solution:
                     board[r][c] = "O"
 ```
 
+#### Java
 ```java
 class Solution {
     class Coordinate{

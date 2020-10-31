@@ -55,7 +55,7 @@ Space complexity: $O(n*2^l)$ + $O(n)$
 </br>
 </br>
 
-
+#### Python
 ```python
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
@@ -74,7 +74,7 @@ class Solution:
         
         return ans 
 ```
-
+#### Java
 ```java
 class Solution {
     public List<String> letterCasePermutation(String S) {

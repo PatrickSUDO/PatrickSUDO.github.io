@@ -39,7 +39,7 @@ Space complexity: $O(1)$
 </br>
 </br>
 
-
+#### Python
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -58,7 +58,7 @@ class Solution:
             ite=ite.next
         return head
 ```
-
+#### Java
 ```java
 /**
  * Definition for singly-linked list.

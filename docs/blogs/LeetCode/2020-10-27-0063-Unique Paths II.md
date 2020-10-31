@@ -55,7 +55,7 @@ Space complexity: $O(mn)$
 </br>
 </br>
 
-
+#### Python
 ```python
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
@@ -75,6 +75,8 @@ class Solution:
         return dp[-1][-1]
 ```
 
+
+#### Java
 ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {

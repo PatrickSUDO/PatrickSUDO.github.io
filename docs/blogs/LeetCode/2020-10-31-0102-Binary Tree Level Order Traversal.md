@@ -1,5 +1,5 @@
 ---
-title: 0130. Surrounded Regions
+title: 0102-Binary Tree Level Order Traversal
 date: 2020-10-31
 author: PatrickSUDO
 sidebar: 'auto'
@@ -11,7 +11,7 @@ tags:
 categories:
   - LeetCode
 ---
-[LeetCode 0130. Surrounded Regions](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+[LeetCode 0102-Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ---
 **Problem:** <br/>
@@ -38,10 +38,6 @@ return its level order traversal as:
     ]
 
 
-#### Explanation:
-
-Surrounded regions shouldn’t be on the border, which means that any 'O' on the border of the board are not flipped to 'X'. Any 'O' that is not on the border and it is not connected to an 'O' on the border will be flipped to 'X'. Two cells are connected if they are adjacent cells connected horizontally or vertically.
-
 ---
 **Solution:** <br/>
 The level order is similar to the BFS. So, we use the queue and iterative way to solve this question. First, we add the root in the queue. When the queue is not empty, we can claim an array "level" to contain the incoming nodes. Because we add all the node children at a batch, and they are all in the same next level. So, we pop all the nodes in that level. 2 loops are needed in this scenario. After the node is popped, we add it into the "level" array, and wee= add the child nodes into the queue if there are any child nodes. Once we finish a level, add it into the ans array.
@@ -52,9 +48,8 @@ Space complexity: $O(n)$
 </br>
 </br>
 
-
+#### Python
 ```python
-'''Iterative'''
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -81,7 +76,7 @@ class Solution:
                    
         return res
 ```
-
+#### Java
 ```java
 /**
  * Definition for a binary tree node.

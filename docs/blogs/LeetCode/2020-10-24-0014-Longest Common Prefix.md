@@ -51,6 +51,7 @@ Space complexity: $O(1)$
 </br>
 </br>
 
+#### Java
 ```Java
 public class Solution {
     public String longestCommonPrefix(String[] strs) {
@@ -68,6 +69,8 @@ public class Solution {
 
 In Python, we can directly find the maximum and minimum of the string, something like sorting them lexicographically. Time complexity becomes $O(kn)$. In this way, we only check the max string, if max string satisfies the prefix condition, then other strings must do so.
 
+
+#### Python
 ```python
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
