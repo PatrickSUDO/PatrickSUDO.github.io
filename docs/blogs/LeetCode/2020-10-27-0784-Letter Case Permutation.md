@@ -7,7 +7,6 @@ sidebarDepth: 2
 tags: 
   - LeetCode-Medium
   - Backtracking
-  - 
 categories:
   - LeetCode
 ---
