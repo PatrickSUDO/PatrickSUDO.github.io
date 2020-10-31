@@ -1,5 +1,5 @@
 ---
-title: 0102-Binary Tree Level Order Traversal
+title: 0102. Binary Tree Level Order Traversal
 date: 2020-10-31
 author: PatrickSUDO
 sidebar: 'auto'
