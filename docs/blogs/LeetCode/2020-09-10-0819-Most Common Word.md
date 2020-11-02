@@ -65,3 +65,4 @@ class Solution:
         counts = collections.Counter(w for w in words if w not in bannedSet)
         return max(counts, key=counts.get)
 ```
+<Disqus shortname="patricksudo" />

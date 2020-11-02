@@ -92,3 +92,4 @@ class Solution:
             curr = curr.next
         return dummy.next
 ```
+<Disqus shortname="patricksudo" />

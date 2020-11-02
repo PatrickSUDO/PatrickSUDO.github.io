@@ -89,3 +89,4 @@ class Solution:
             time += 1
         return max(time, 0) if count == 0 else -1
 ```
+<Disqus shortname="patricksudo" />

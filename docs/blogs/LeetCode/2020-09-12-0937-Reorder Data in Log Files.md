@@ -83,4 +83,4 @@ class Solution:
         result = letters + digits        
         return result
 ```
-
+<Disqus shortname="patricksudo" />

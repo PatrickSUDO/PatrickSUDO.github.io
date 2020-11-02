@@ -82,3 +82,4 @@ class Solution:
                 return s1[:i]
         return s1
 ```
+<Disqus shortname="patricksudo" />

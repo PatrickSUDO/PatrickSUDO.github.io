@@ -159,3 +159,4 @@ class Solution:
         curr.next = l or r
         return dummy.next
 ```
+<Disqus shortname="patricksudo" />

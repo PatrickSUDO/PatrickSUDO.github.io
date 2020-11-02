@@ -143,4 +143,5 @@ class Solution:
 		return nums.pop()
         
 ```
+<Disqus shortname="patricksudo" />
 

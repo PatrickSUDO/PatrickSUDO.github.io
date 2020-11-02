@@ -98,7 +98,7 @@ class Solution:
         #If l is None means it go through all the elemetes -> palindrome
         return not l
 ```
-
+<Disqus shortname="patricksudo" />
 
 
 

@@ -60,3 +60,4 @@ class Solution:
             return self.rangeSumBST(root.left, L, R)
         return root.val + self.rangeSumBST(root.left, L, R) + self.rangeSumBST(root.right, L, R)
 ```
+<Disqus shortname="patricksudo" />

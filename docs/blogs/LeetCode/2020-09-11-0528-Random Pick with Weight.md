@@ -130,3 +130,4 @@ class Solution:
 # obj = Solution(w)
 # param_1 = obj.pickIndex()
 ```
+<Disqus shortname="patricksudo" />

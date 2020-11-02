@@ -141,3 +141,5 @@ heroku open -a <YOUR_APP_NAME>
 We can see the content if it deploys successfully.
 
 P.S Some commend on Heroku CLI can be found [here](https://devcenter.heroku.com/articles/heroku-cli-commands)
+
+<Disqus shortname="patricksudo" />

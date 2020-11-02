@@ -112,3 +112,4 @@ class Solution:
             prev.next = l1
         return dum.next
 ```
+<Disqus shortname="patricksudo" />

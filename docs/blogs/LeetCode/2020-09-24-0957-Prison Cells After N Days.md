@@ -81,3 +81,4 @@ class Solution:
                 N %= seen[str(cells)] - N
         return cells 
 ```
+<Disqus shortname="patricksudo" />
