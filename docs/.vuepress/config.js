@@ -22,7 +22,7 @@ module.exports = {
       }
     ]
   ],
-  permalink: "/:year/:month/:day/:slug",
+  // permalink: "/:year/:month/:day/:slug",
   theme: "reco",
   themeConfig: {
     authorAvatar: '/avatar.jpg',
