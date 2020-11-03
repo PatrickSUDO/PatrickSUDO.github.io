@@ -1,12 +1,12 @@
 module.exports = {
-  "title": "Patrick's Blog",
-  "description": " ",
-  "locales": {
+  title: "Patrick's Blog",
+  description: " ",
+  locales: {
     '/': {
       lang: 'en-US'
     }
   },
-  "head": [
+  head: [
     [
       "link",
       {
@@ -22,110 +22,90 @@ module.exports = {
       }
     ]
   ],
-  "theme": "reco",
-  "themeConfig": {
+  permalink: "/:year/:month/:day/:slug",
+  theme: "reco",
+  themeConfig: {
+    authorAvatar: '/avatar.jpg',
     mode: 'light',
+    
     noFoundPageByTencent: false,
     modePicker: false,
-    locales: {
-      '/': {
-        // vssueConfig: {
 
-        //   locale: 'en-US',
-        //   platform: 'github',
-          
-        //   owner: 'PatrickSUDO',
-        //   repo: 'comment',
-        //   clientId: '64ebf58d65249e13ffb2',
-        //   clientSecret: '875a204404040d9f5fe31fa9dd9c51c8ff1bfbbe',
-        //   autoCreateIssue:flae,
-        //   showComment: false
-        // }
-      }
-    },
-    "nav": [
+    nav: [
       {
-        "text": "Home",
-        "link": "/",
-        "icon": "reco-home"
+        text: "Home",
+        link: "/",
+        icon: "reco-home"
       },
       {
-        "text": "TimeLine",
-        "link": "/timeline/",
-        "icon": "reco-date"
+        text: "TimeLine",
+        link: "/timeline/",
+        icon: "reco-date"
       },
-      // {
-      //   "text": "Docs",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "vuepress-reco",
-      //       "link": "/docs/theme-reco/"
-      //     }
-      //   ]
-      // },
       {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
+        text: "Contact",
+        icon: "reco-message",
+        items: [
           {
-            "text": "GitHub",
-            "link": "https://github.com/PatrickSUDO",
-            "icon": "reco-github"
+            text: "GitHub",
+            link: "https://github.com/PatrickSUDO",
+            icon: "reco-github"
           },
           {
-            "text": "Mail Me",
-            "link": "mailto:patricksuph@gmail.com",
-            "icon": "reco-mail"
+            text: "Mail Me",
+            link: "mailto:patricksuph@gmail.com",
+            icon: "reco-mail"
           },
           {
-            "text": "Linkedin",
-            "link": "https://www.linkedin.com/in/paihan-su-92b46488/",
-            "icon": "reco-linkedin"
+            text: "Linkedin",
+            link: "https://www.linkedin.com/in/paihan-su-92b46488/",
+            icon: "reco-linkedin"
           }
 
         ]
       },
       {
-        "text": "About",
-        "link": "/blogs/about/",
-        "icon": "reco-account"
+        text: "About",
+        link: "/blogs/about/",
+        icon: "reco-account"
       },
     ],
-    "sidebar": 'auto',
-    "type": "blog",
-    "blogConfig": {
+    
+    type: "blog",
+    smoothScroll: true,
+    blogConfig: {
       "category": {
         "location": 2,
         "text": "Category"
       },
-      "tag": {
+      tag: {
         "location": 3,
         "text": "Tag"
       }
     },
   
-    // "logo": "/logo.png",
-    "search": true,
-    "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
-    "author": "Patrick Su",
-    // "record": "xxxx",
-    "startYear": "2020"
+    // logo: "/avatar.jpg",
+    search: true,
+    searchMaxSuggestions: 10,
+    subSidebar: 'auto',
+    sidebarDepth: 4,
+    lastUpdated: "Last Updated",
+    author: "Patrick Su",
+    startYear: "2020"
   },
-  "markdown": {
-    "lineNumbers": true
+  markdown: {
+    lineNumbers: true
   },
   plugins: [
-    // ['@vssue/vuepress-plugin-vssue', {
-    //   platform: 'github',
-    //   owner: 'PatrickSUDO',
-    //   repo: 'comment',
-    //   clientId: '6aba19e2a544784496f0',
-    //   clientSecret: '8d29cc2f04989d822d63ce7dd662dfa1042bdcbb',
-    // }], 
     ['cursor-effects'],
+    ['seo'],
+    // ['@vuepress/plugin-blog'],
     ['vuepress-plugin-mathjax'],
     ['vuepress-plugin-disqus'],
+    ['sitemap', {
+      hostname: 'https://patricksudo.github.io/'
+    }],
+    // ['vuepress-plugin-auto-sidebar'],
+    
 ],
 }
