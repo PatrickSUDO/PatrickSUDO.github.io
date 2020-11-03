@@ -98,12 +98,12 @@ module.exports = {
   },
   plugins: [
     ['cursor-effects'],
-    ['seo'],
+    // ['seo'],
     // ['@vuepress/plugin-blog'],
     ['vuepress-plugin-mathjax'],
     ['vuepress-plugin-disqus'],
     ['sitemap', {
-      hostname: 'https://patricksudo.github.io/'
+      hostname:'https://patricksudo.github.io'
     }],
     // ['vuepress-plugin-auto-sidebar'],
     
