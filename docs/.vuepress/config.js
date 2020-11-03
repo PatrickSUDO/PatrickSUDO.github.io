@@ -22,7 +22,7 @@ module.exports = {
       }
     ]
   ],
-  // permalink: "/:year/:month/:day/:slug",
+  permalink: "/:year/:month/:day/:slug",
   theme: "reco",
   themeConfig: {
     authorAvatar: '/avatar.jpg',
@@ -102,9 +102,11 @@ module.exports = {
     // ['@vuepress/plugin-blog'],
     ['vuepress-plugin-mathjax'],
     ['vuepress-plugin-disqus'],
-    ['sitemap', {
+    ['sitemap', 
+    {
       hostname:'https://patricksudo.github.io'
-    }],
+    },
+  ],
     // ['vuepress-plugin-auto-sidebar'],
     
 ],
