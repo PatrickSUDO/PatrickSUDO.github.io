@@ -15,7 +15,7 @@ categories:
 [LeetCode 0001. Two Sum](https://leetcode.com/problems/two-sum/)
 
 ---
-**Problem:** <br/>
+### Problem: <br/>
 
 Given an array of integers **nums** and an integer **target**, return indices of the two numbers such that they add up to **target**.
 
@@ -48,7 +48,7 @@ You can return the answer in any order.
 - <strong>Only one valid answer exists.</strong>
 
 ---
-**Solution:** <br/>
+### Solution: <br/>
 We can use brute force to iterate through all the possibilities exhaustively, but it cost $O(n^2)$ time complexity because the target is composed of exact 2 elements in the array. We can use hash table to record the index when we first see a possible target component. Then, when we meet its complementary number, we can get the index we put into the hash table previously. Then we can have $O(n)$ time complexity.
 
 
