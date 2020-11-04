@@ -98,7 +98,7 @@ module.exports = {
   },
   plugins: [
     ['cursor-effects'],
-    // ['seo'],
+    ['seo'],
     // ['@vuepress/plugin-blog'],
     ['vuepress-plugin-mathjax'],
     ['vuepress-plugin-disqus'],
