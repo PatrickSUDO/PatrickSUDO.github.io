@@ -1,5 +1,6 @@
 ---
-title: 0014. Longest Common Prefix
+title: 14. Longest Common Prefix
+description: leetcode 14. Longest Common Prefix
 date: 2020-10-24
 author: PatrickSUDO
 sidebar: 'auto'

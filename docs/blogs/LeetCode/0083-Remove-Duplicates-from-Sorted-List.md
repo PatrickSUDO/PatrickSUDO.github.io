@@ -1,5 +1,6 @@
 ---
-title: 0083. Remove Duplicates from Sorted List
+title: 83. Remove Duplicates from Sorted List
+description: leetcode 83. Remove Duplicates from Sorted List
 date: 2020-10-27
 author: PatrickSUDO
 sidebar: 'auto'

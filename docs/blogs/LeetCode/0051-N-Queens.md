@@ -1,5 +1,6 @@
 ---
-title: 0051. N-Queens
+title: 51. N-Queens
+description: leetcode 51. N-Queens
 date: 2020-09-20
 author: PatrickSUDO
 sidebar: 'auto'

@@ -1,5 +1,6 @@
 ---
-title: 0021. Merge Two Sorted Lists
+title: 21. Merge Two Sorted Lists
+description: leetcode 21. Merge Two Sorted Lists
 date: 2020-10-24
 author: PatrickSUDO
 sidebar: 'auto'

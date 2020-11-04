@@ -1,5 +1,6 @@
 ---
-title: 0063. Unique Paths II
+title: 63. Unique Paths II
+description: leetcode 63. Unique Paths II
 date: 2020-10-27
 author: PatrickSUDO
 sidebar: 'auto'

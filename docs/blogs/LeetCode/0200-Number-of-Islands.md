@@ -1,5 +1,6 @@
 ---
-title: 0200. Number of Islands
+title: 200. Number of Islands
+description: leetcode 200. Number of Islands
 date: 2020-09-12
 author: PatrickSUDO
 sidebar: 'auto'

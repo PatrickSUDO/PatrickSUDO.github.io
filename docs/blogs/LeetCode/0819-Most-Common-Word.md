@@ -1,5 +1,6 @@
 ---
-title: 0819. Most Common Word
+title: 819. Most Common Word
+description: leetcode 819. Most Common Word
 date: 2020-09-10
 author: PatrickSUDO
 sidebar: 'auto'

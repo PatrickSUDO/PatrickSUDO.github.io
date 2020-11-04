@@ -1,5 +1,6 @@
 ---
-title: 0528. Random Pick with Weight
+title: 528. Random Pick with Weight
+description: leetcode 528. Random Pick with Weight
 date: 2020-09-11
 author: PatrickSUDO
 sidebar: 'auto'

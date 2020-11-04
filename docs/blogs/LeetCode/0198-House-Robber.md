@@ -1,5 +1,6 @@
 ---
-title: 0198. House Robber
+title: 198. House Robber
+description: leetcode 198. House Robber
 date: 2020-11-02
 author: PatrickSUDO
 sidebar: 'auto'

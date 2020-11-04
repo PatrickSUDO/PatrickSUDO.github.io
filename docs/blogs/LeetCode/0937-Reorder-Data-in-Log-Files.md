@@ -1,5 +1,6 @@
 ---
-title: 0937. Reorder Data in Log Files
+title: 937. Reorder Data in Log Files
+description: leetcode 937. Reorder Data in Log Files
 date: 2020-09-12
 author: PatrickSUDO
 sidebar: 'auto'

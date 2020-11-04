@@ -1,5 +1,6 @@
 ---
-title: 0706. Design HashMap 
+title: 706. Design HashMap 
+description: leetcode 706. Design HashMap 
 date: 2020-09-07
 author: PatrickSUDO
 sidebar: 'auto'

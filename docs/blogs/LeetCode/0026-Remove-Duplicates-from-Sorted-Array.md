@@ -1,5 +1,6 @@
 ---
-title: 0026. Remove Duplicates from Sorted Array
+title: 26. Remove Duplicates from Sorted Array
+description: leetcode 26. Remove Duplicates from Sorted Array
 date: 2020-10-27
 author: PatrickSUDO
 sidebar: 'auto'

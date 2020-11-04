@@ -1,5 +1,6 @@
 ---
-title: 0994. Rotting Oranges
+title: 994. Rotting Oranges
+description: leetcode 994. Rotting Oranges
 date: 2020-09-15
 author: PatrickSUDO
 sidebar: 'auto'

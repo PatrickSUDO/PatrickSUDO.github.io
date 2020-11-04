@@ -1,5 +1,6 @@
 ---
-title: 0041. First Missing Positive
+title: 41. First Missing Positive
+description: leetcode 41. First Missing Positive
 date: 2020-10-24
 author: PatrickSUDO
 sidebar: 'auto'

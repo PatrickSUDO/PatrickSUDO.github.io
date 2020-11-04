@@ -1,5 +1,6 @@
 ---
-title: 0226. Invert Binary Tree
+title: 226. Invert Binary Tree
+description: leetcode 226. Invert Binary Tree
 date: 2020-10-03
 author: PatrickSUDO
 sidebar: 'auto'

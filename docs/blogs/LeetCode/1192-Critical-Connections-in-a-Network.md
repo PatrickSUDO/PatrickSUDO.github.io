@@ -1,5 +1,6 @@
 ---
 title: 1192. Critical Connections in a Network
+description: leetcode 1192. Critical Connections in a Network
 date: 2020-09-14
 author: PatrickSUDO
 sidebar: 'auto'

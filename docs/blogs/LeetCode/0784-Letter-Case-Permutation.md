@@ -1,5 +1,6 @@
 ---
-title: 0784. Letter Case Permutation
+title: 784. Letter Case Permutation
+description: leetcode 784. Letter Case Permutation
 date: 2020-10-27
 author: PatrickSUDO
 sidebar: 'auto'

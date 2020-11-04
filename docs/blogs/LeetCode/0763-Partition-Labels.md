@@ -1,5 +1,6 @@
 ---
-title: 0763. Partition Labels
+title: 763. Partition Labels
+description: leetcode 763. Partition Labels
 date: 2020-09-14
 author: PatrickSUDO
 sidebar: 'auto'

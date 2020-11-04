@@ -1,5 +1,6 @@
 ---
-title: 0001. Two Sum
+title: 1. Two Sum
+description: leetcode 1. Two Sum
 date: 2020-10-31
 author: PatrickSUDO
 sidebar: 'auto'

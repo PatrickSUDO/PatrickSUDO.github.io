@@ -1,5 +1,6 @@
 ---
-title: 0242. Valid Anagram
+title: 242. Valid Anagram
+description: leetcode 242. Valid Anagram
 date: 2020-11-02
 author: PatrickSUDO
 sidebar: 'auto'

@@ -1,5 +1,6 @@
 ---
-title: 0146. LRU Cache 
+title: 146. LRU Cache
+description: leetcode 146. LRU Cache
 date: 2020-09-14
 author: PatrickSUDO
 sidebar: 'auto'

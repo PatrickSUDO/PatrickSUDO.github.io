@@ -1,5 +1,6 @@
 ---
-title: 0347. Top K Frequent Elements 
+title: 347. Top K Frequent Elements 
+description: leetcode 347. Top K Frequent Elements 
 date: 2020-09-05
 author: PatrickSUDO
 sidebar: 'auto'

@@ -1,5 +1,6 @@
 ---
-title: 0234. Palindrome Linked List
+title: 234. Palindrome Linked List
+description: leetcode 234. Palindrome Linked List
 date: 2020-09-11
 author: PatrickSUDO
 sidebar: 'auto'

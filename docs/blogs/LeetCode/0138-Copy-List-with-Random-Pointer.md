@@ -1,5 +1,6 @@
 ---
-title: 0138. Copy List with Random Pointer
+title: 138. Copy List with Random Pointer
+description: leetcode 138. Copy List with Random Pointer
 date: 2020-09-29
 author: PatrickSUDO
 sidebar: 'auto'

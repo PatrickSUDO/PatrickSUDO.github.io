@@ -1,5 +1,6 @@
 ---
-title: 0957. Prison Cells After N Days
+title: 957. Prison Cells After N Days
+description: leetcode 957. Prison Cells After N Days
 date: 2020-09-24
 author: PatrickSUDO
 sidebar: 'auto'

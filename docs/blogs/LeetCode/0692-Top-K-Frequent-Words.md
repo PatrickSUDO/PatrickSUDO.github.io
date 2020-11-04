@@ -1,5 +1,6 @@
 ---
-title: 0692. Top K Frequent Words 
+title: 692. Top K Frequent Words 
+description: leetcode 692. Top K Frequent Words 
 date: 2020-09-14
 author: PatrickSUDO
 sidebar: 'auto'

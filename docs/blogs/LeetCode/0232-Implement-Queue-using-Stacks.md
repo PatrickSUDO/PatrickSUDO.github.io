@@ -1,5 +1,6 @@
 ---
-title: 0232. Implement Queue using Stacks
+title: 232. Implement Queue using Stacks
+description: leetcode 232. Implement Queue using Stacks
 date: 2020-10-24
 author: PatrickSUDO
 sidebar: 'auto'

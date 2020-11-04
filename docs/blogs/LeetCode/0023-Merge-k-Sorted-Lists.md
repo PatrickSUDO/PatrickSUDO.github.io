@@ -1,5 +1,6 @@
 ---
-title: 0023. Merge k Sorted Lists
+title: 23. Merge k Sorted Lists
+description: leetcode 23. Merge k Sorted Lists
 date: 2020-09-27
 author: PatrickSUDO
 sidebar: 'auto'

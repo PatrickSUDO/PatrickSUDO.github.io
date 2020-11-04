@@ -1,5 +1,6 @@
 ---
-title: 0204. Count Primes
+title: 204. Count Primes
+description: leetcode 204. Count Primes
 date: 2020-10-24
 author: PatrickSUDO
 sidebar: 'auto'

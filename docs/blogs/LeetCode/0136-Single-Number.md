@@ -1,5 +1,6 @@
 ---
-title: 0136. Single Number
+title: 136. Single Number
+description: leetcode 136. Single Number
 date: 2020-10-31
 author: PatrickSUDO
 sidebar: 'auto'

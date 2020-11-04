@@ -1,5 +1,6 @@
 ---
 title: 1152. Analyze User Website Visit Pattern
+description: leetcode 1152. Analyze User Website Visit Pattern
 date: 2020-09-16
 author: PatrickSUDO
 sidebar: 'auto'

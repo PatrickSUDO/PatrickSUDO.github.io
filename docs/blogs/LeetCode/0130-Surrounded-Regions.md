@@ -1,5 +1,6 @@
 ---
-title: 0130. Surrounded Regions
+title: 130. Surrounded Regions
+description: leetcode 130. Surrounded Regions
 date: 2020-10-31
 author: PatrickSUDO
 sidebar: 'auto'

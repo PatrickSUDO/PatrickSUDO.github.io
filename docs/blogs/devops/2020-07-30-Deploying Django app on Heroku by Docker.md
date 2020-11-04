@@ -1,5 +1,6 @@
 ---
 title: Deploying Django app on Heroku by Docker
+description: Deploying Django app on Heroku by Docker
 date: 2020-07-30
 author: PatrickSUDO
 sidebar: 'auto'

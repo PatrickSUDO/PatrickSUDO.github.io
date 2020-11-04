@@ -1,5 +1,6 @@
 ---
-title: 0062. Unique Paths
+title: 62. Unique Paths
+description: leetcode 62. Unique Paths
 date: 2020-10-27
 author: PatrickSUDO
 sidebar: 'auto'
