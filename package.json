@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@mr-hope/vuepress-plugin-reading-time": "^1.4.7",
+    "@mr-hope/vuepress-plugin-sitemap": "^1.4.7",
     "@vuepress/plugin-blog": "^1.9.3",
     "vuepress": "1.5.0",
     "vuepress-plugin-auto-sidebar": "^1.5.0",

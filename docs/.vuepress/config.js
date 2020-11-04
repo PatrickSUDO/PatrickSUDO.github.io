@@ -102,7 +102,7 @@ module.exports = {
     // ['@vuepress/plugin-blog'],
     ['vuepress-plugin-mathjax'],
     ['vuepress-plugin-disqus'],
-    ['sitemap', 
+    ["@mr-hope/sitemap", 
     {
       hostname:'https://patricksudo.github.io'
     },
