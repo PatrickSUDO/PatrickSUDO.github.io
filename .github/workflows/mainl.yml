@@ -25,7 +25,7 @@ jobs:
         run: ls -a docs/.vuepress/dist # 显示生成的目录文件
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.5.9
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
