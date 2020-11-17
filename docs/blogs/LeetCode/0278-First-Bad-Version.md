@@ -1,6 +1,6 @@
 ---
-title: 278. Add Binary
-description: leetcode 278. Add Binary
+title: 278. First Bad Version
+description: leetcode 278. First Bad Version
 date: 2020-11-17
 author: PatrickSUDO
 sidebar: 'auto'
@@ -12,7 +12,7 @@ tags:
 categories:
   - LeetCode
 ---
-[LeetCode 0278. Add Binary](https://leetcode.com/problems/first-bad-version/)
+[LeetCode 0278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 ---
 ### Problem: <br/>
