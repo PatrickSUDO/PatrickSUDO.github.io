@@ -7,8 +7,9 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags: 
   - LeetCode-Medium
-  - Stack
   - Tree
+  - DFS
+
 categories:
   - LeetCode
 ---
