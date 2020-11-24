@@ -12,7 +12,7 @@ tags:
 categories:
   - LeetCode
 ---
-[LeetCode 93. Restore IP Addresses](https://leetcode.com/problems/01-matrix/)
+[LeetCode 93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 ---
 ### Problem: <br/>
