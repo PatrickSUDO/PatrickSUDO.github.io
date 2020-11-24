@@ -7,7 +7,7 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags: 
   - LeetCode-Medium
-  - DP
+  - Backtracking
 categories:
   - LeetCode
 ---
