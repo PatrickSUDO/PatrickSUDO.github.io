@@ -115,7 +115,7 @@ class Solution {
 
     private boolean dfs(String S, int start, List<Integer> path, List<Integer> ans){
         if (start == S.length() && path.size() >= 3 ){
-            ans.addAll(new ArrayList<>(path));
+            ans.addAll(path);
             return true;
         }
 
