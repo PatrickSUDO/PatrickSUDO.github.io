@@ -1,7 +1,7 @@
 ---
 title: 141. Linked List Cycle
 description: leetcode 141. Linked List Cycle
-date: 2021-1-1
+date: 2021-01-01
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

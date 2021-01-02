@@ -1,7 +1,7 @@
 ---
 title: 987. Vertical Order Traversal of a Binary Tree
 description: leetcode 987. Vertical Order Traversal of a Binary Tree
-date: 2021-1-2
+date: 2021-01-02
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
@@ -59,7 +59,7 @@ We recursively traverse the tree by pre-order way, but we need to record the x-y
 
 
 Time complexity: $O(nlogn)$</br>
-Space complexity: $O(n))$ 
+Space complexity: $O(n)$ 
 </br>
 </br>
 

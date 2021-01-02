@@ -1,7 +1,7 @@
 ---
 title: 147. Insertion Sort List
 description: leetcode 147. Insertion Sort List
-date: 2021-1-1
+date: 2021-01-01
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

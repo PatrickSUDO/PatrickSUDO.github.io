@@ -1,7 +1,7 @@
 ---
 title: 145. Binary Tree Postorder Traversal
 description: leetcode 145. Binary Tree Postorder Traversal
-date: 2021-1-1
+date: 2021-01-01
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

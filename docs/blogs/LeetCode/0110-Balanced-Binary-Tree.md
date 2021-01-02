@@ -1,7 +1,7 @@
 ---
 title: 110. Balanced Binary Tree
 description: leetcode 110. Balanced Binary Tree
-date: 2021-1-2
+date: 2021-01-02
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
@@ -51,7 +51,7 @@ We recursively check the height level by level in another helper function. The k
 
 
 Time complexity: $O(n)$</br>
-Space complexity: $O(n))$ 
+Space complexity: $O(n)$ 
 </br>
 </br>
 

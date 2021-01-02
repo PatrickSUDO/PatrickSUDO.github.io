@@ -1,7 +1,7 @@
 ---
 title: 101. Symmetric Tree
 description: leetcode 101. Symmetric Tree
-date: 2021-1-2
+date: 2021-01-02
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
@@ -53,6 +53,8 @@ Space complexity: $O(n))$
 </br>
 
 #### Recursive
+
+If one of the child trees is not symmetric, then the whole tree is not symmetric. If both child trees are null, then it is symmetric.
 
 #### Python
 ```python
