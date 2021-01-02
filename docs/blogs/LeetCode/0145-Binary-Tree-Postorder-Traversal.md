@@ -7,8 +7,8 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags: 
   - LeetCode-Medium
-  - Linked List
-  - Two Pointers
+  - Tree
+  - Stack
 categories:
   - LeetCode
 ---

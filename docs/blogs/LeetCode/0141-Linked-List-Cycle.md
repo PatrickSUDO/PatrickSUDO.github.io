@@ -6,7 +6,7 @@ author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
 tags: 
-  - LeetCode-Medium
+  - LeetCode-Easy
   - Linked List
   - Two Pointers
 categories:
