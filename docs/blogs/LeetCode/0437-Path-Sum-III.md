@@ -1,7 +1,7 @@
 ---
 title: 437. Path Sum III
 description: leetcode 437. Path Sum III
-date: 2021-01-03
+date: 2021-01-04
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

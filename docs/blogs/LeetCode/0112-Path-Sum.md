@@ -1,7 +1,7 @@
 ---
 title: 112. Path Sum
 description: leetcode 112. Path Sum
-date: 2021-01-03
+date: 2021-01-04
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
