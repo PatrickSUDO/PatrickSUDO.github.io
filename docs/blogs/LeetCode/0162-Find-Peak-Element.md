@@ -12,7 +12,7 @@ tags:
 categories:
   - LeetCode
 ---
-[LeetCode 0leetcode 162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+[LeetCode 162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 ---
 ### Problem: <br/>
