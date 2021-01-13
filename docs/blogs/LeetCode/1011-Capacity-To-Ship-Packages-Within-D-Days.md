@@ -75,7 +75,7 @@ Space complexity: $O(1)$
 
 #### Python
 ```python
-//inspired by lee215
+# inspired by lee215
 class Solution:
     def shipWithinDays(self, weights: List[int], D: int) -> int:
         l, r = max(weights), sum(weights)
