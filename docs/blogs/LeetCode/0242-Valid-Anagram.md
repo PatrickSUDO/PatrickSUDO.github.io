@@ -7,7 +7,7 @@ sidebar: 'auto'
 sidebarDepth: 2
 tags: 
   - LeetCode-Easy
-  - Hast Table
+  - Hash Table
 categories:
   - LeetCode
 ---
