@@ -1,7 +1,7 @@
 ---
 title: 16. 3Sum Closest
 description: leetcode 16. 3Sum Closest
-date: 2020-01-25
+date: 2021-01-25
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

@@ -1,7 +1,7 @@
 ---
 title: 977. Squares of a Sorted Array
 description: leetcode 977. Squares of a Sorted Array
-date: 2020-01-25
+date: 2021-01-25
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

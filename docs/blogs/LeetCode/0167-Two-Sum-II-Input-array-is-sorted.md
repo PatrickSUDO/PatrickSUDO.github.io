@@ -1,7 +1,7 @@
 ---
 title: 167. Two Sum II - Input array is sorted
 description: leetcode 167. Two Sum II - Input array is sorted
-date: 2020-01-25
+date: 2021-01-25
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2

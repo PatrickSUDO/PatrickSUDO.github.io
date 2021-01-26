@@ -1,7 +1,7 @@
 ---
 title: 992. Subarrays with K Different Integers
 description: leetcode 992. Subarrays with K Different Integers
-date: 2020-01-25
+date: 2021-01-25
 author: PatrickSUDO
 sidebar: 'auto'
 sidebarDepth: 2
@@ -49,7 +49,7 @@ Return the number of good subarrays of `A`.
 
 It is not easy to solve the problem with exactly `K` distinct subarrays, but solving problems with at most `K` distinct elements is relatively easy to do. If f(K) represents the number of subarray with at most `K` distinct integers, we can get the number with exact K distinct integer by f(K+1) - f(K).
 
-For sub-questions, we should use sliding windows to get the sub-array. Also, hash table can be used to count the number of the distinct integer. 
+For sub-questions, we can use sliding windows to get the sub-array. Also, hash table can be used to count the number of the distinct integer. 
 
 When the hash table's size is larger than `K`, we have to start from `l` to `r` and delete the `A[l]` in the hash table until its size is equal to `K`.  When the frequency of an integer in the hash table is equal to 0, then the key should be deleted.  Also, we keep accumulating the number of intervals `r-l+1` (because `[l,r]` can be split into `r-l+1` intervals ending in `A[r]`).
 
