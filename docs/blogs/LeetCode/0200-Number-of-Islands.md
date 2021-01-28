@@ -42,13 +42,14 @@ Input: grid = [</br>
 Output: 3
 
 ---
-**Solution:** <br/>
+#### Solution:** <br/>
 Typical DFS questions! The only thing to be careful is that "1" and "0" are string not int.
 First find the starting point of the land, then enter the dfs recursion, and then turn the land entered into water first, marking the position has been found, check the upper, lower, left, and right blocks are land, if so, enter the next level recursively.
 
 Time complexity: $O(mn)$ </br>
 Space complexity: $O(mn)$
 
+#### Python
 
 ```python
 class Solution:
@@ -75,4 +76,39 @@ class Solution:
                     dfs(grid, i, j)
         return ans
 ```
+
+# Java
+
+```java
+class Solution {
+    public int numIslands(char[][] grid) {
+        int m = grid.length, n = grid[0].length, ans= 0;
+        for(int i = 0; i < m; i ++){
+            for (int j = 0; j < n; j ++){
+                if(grid[i][j] == '1'){
+                    dfs(grid, i, j);
+                    ans++;
+                }
+            }
+        }
+        return ans;
+    }
+    private void dfs(char[][] grid, int i, int j){
+        if(grid[i][j] != '1') return;
+        int m = grid.length, n = grid[0].length;
+        
+        grid[i][j] = '0';
+        int[] dx = new int[]{1, -1, 0, 0};
+        int[] dy = new int[]{0, 0, 1, -1};
+        
+        for (int k = 0; k < dx.length; k ++){
+            int y = i + dy[k];
+            int x = j + dx[k];
+            if(y >= m || x >= n || y < 0 || x < 0) continue;
+            dfs(grid, y, x);
+        }
+    }
+}
+```
+
 <Disqus shortname="patricksudo" />

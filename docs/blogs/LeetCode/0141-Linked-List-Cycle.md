@@ -50,7 +50,7 @@ Return `true` if there is a cycle in the linked list. Otherwise, return `false`.
 ---
 ### Solution: <br/>
 
-1. We create two pointers, one fast and one slow. Keep travsersing, if they overlap, there is a loop, and return True. If .next=None, return False.
+1. We create two pointers, one fast and one slow. Keep traversing, if they overlap, there is a loop, and return True. If .next=None, return False.
 2. fast, slow = head, head. Both pointers point to head at the beginning.
 3. Build a nested while loop with the conditions fast and fast.next are not null. If they do not exist, it means there is no cycle.
 4. fast, slow = fast.next.next, slow.next
