@@ -48,7 +48,7 @@ The tree has no more than 1,000 nodes and the values are in the range -1,000,000
 
 Two recursive functions are used. The dfs recursive function is based on the current node as the starting point. It uses pre-order traversal and processes each traversed node. It maintains a variable `target` to record the value needed after visiting the previous path. We deduct the value of the current node when passing to the next recursion. If the target goes to 0, then we add 1 to the answer. Next, we call the recursive function to traverse the current node's left and right child nodes.  In the pathSum function, we call the dfs function on the current node and call the pathSum recursive function on both child nodes. The sum of the return values of the three is the answer.
 
-Time complexity: $O(n＾2)$</br> (two recursion with one in $O(n)$)
+Time complexity: $O(n^2)$ </br> (two recursion with one in $O(n)$)
 Space complexity: $O(n)$ 
 </br>
 </br>
@@ -110,9 +110,10 @@ class Solution {
         if(root == null) return 0;
         
         currSum += root.val;
+        //fetch the frequence of the old path sum, if there is
         int ans = cache.getOrDefault(currSum - target, 0);
         
-        //add this path to the cache, if currSum == target, we get another path
+        //add this path to the cache, if currSum == target, we increment the frequency and get another path
         cache.put(currSum, cache.getOrDefault(currSum, 0) + 1);
         
         ans += dfs(root.left, currSum, target, cache);        
