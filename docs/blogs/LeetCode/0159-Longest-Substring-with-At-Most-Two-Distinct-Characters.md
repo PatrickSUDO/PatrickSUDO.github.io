@@ -50,24 +50,21 @@ In python, `defaultdict(int)` can be use to count the frequency of character.
 
 #### Python
 ```python
-class Solution:
-    def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
-        window = collections.defaultdict(int)
-        n = len(s)
-        l, r = 0, 0
-        ans = 0 
-        while l < len(s) and r < len(s):
-            window[s[r]] = r
-            r += 1
-            if len(window) > 2:
-                oldLeft = min(window, key = window.get)
-                leftMost = window[oldLeft]
-                l = leftMost + 1
-                del window[oldLeft]
-            ans = max(ans, r - l) 
+class Solution(object):
+    def lengthOfLongestSubstringKDistinct(self, s, k):
+        cache = [0] * 256
+        l, ans, count = 0, 0, 0
+        for r in range(len(s)):
+            if cache[ord(s[r])] == 0:
+                count += 1
+            cache[ord(s[r])] += 1
+            while count > k:
+                cache[ord(s[l])] -= 1
+                if cache[ord(s[l])] == 0:
+                    count -= 1
+                l += 1
+            ans = max(ans, r - l + 1)
         return ans
-            
-        
 ```
 
 

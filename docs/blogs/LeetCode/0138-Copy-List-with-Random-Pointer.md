@@ -67,6 +67,8 @@ Space complexity: $O(n)$
 </br>
 </br>
 
+
+#### Python
 ```python
 # Definition for a Node.
 class Node:
@@ -92,5 +94,39 @@ class Solution:
                 nodeDict[curr].random = nodeDict[curr.random]
             curr = curr.next
         return dummy.next
+```
+
+#### Java
+```java
+class Solution {
+    public Node copyRandomList(Node head) {
+        Node dummy = new Node(0);
+        Node newHead = dummy;
+        Map<Node, Node> map = new HashMap<>();
+        
+        Node curr = head;
+        while(curr != null){
+            Node newNode = new Node(curr.val);
+            map.put(curr, newNode); 
+            
+            newHead.next = newNode;
+            
+            newHead = newHead.next;
+            curr = curr.next;
+            
+                    
+        }
+        
+        curr = head;
+        while(curr != null){
+            if(curr.random != null){
+                map.get(curr).random = map.get(curr.random);
+            } 
+            curr = curr.next;
+        }      
+        return dummy.next;           
+    }
+}
+
 ```
 <Disqus shortname="patricksudo" />

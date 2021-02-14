@@ -77,17 +77,21 @@ Array can be used instead of hashmap to increase performance since the amount of
 #### Java
 ```java
 class Solution {
-    public int lengthOfLongestSubstringTwoDistinct(String s) {
-        int ans = 0, l = 0, n = s.length(), count = 0;
-        char[] cache = new char[256];
-        for(int r = 0; r < n; r ++){
-            if(cache[s.charAt(r)]++ == 0) count++;
-            while(count > 2){
-                if(--cache[s.charAt(l++)]== 0){
-                    count--;
+    public int lengthOfLongestSubstringKDistinct(String s, int k) {
+        int n = s.length(), l = 0, ans = 0;
+        Map<Character, Integer> cache = new HashMap<>();
+        for(int r = 0; r < n; r++){
+            char curr = s.charAt(r);
+            cache.put(curr, cache.getOrDefault(curr, 0) + 1);
+            while(cache.size() > k){
+                char leftChar = s.charAt(l);
+                cache.put(leftChar, cache.get(leftChar) - 1);
+                if(cache.get(leftChar) == 0){
+                    cache.remove(leftChar);
                 }
+                l++;
             }
-            ans = Math.max(ans, r - l + 1);
+            ans = Math.max(ans, r - l + 1);          
         }
         return ans;
     }
