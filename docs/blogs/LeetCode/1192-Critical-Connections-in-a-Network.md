@@ -63,7 +63,7 @@ class Solution:
         
         #Start from 0, if we find the step is smaller or equal to the minimum step, it means ring exist.
         def dfs(curr, parents, steps):            
-            states[curr] = steps + 1 #Min step now            
+            states[curr] = steps #Min step now            
             for child in graph[curr]:
                 if child == parents: continue #go back and forth
                 elif states[child] == -1: #haven't vistied
@@ -72,7 +72,7 @@ class Solution:
                     states[curr] = min(states[curr], states[child])
             
             #Check if the step changes, but 0 which is the starting point should be excluded
-            if states[curr] == steps + 1 and curr != 0:
+            if states[curr] == steps and parents != 0:
                 ans.append([parents, curr])
             return states[curr]
         
